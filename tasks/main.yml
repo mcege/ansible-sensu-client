@@ -1,0 +1,8 @@
+#Main tasks file for sensu-server role
+---
+
+# Install sensu rpm
+- include: install.yml
+
+# Config json files
+- include: config.yml
